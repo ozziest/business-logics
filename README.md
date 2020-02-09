@@ -4,6 +4,7 @@ A library to query business logics via truth table.
 
 [![npm version](https://badge.fury.io/js/business-logics.svg)](https://badge.fury.io/js/business-logics)
 [![Build Status](https://travis-ci.org/ozziest/business-logics.svg?branch=master)](https://travis-ci.org/ozziest/business-logics)
+[![Quality Gate Status](https://sonarcloud.io/api/project_badges/measure?project=ozziest_business-logics&metric=alert_status)](https://sonarcloud.io/dashboard?id=ozziest_business-logics)
 
 **Business logics** could be hardest parts to manage in a software when they are too complicated. Writing so many if-else block doesn't help usually too. But there is many simple solution to detech business logics and application behavior which is [**Truth Table**](https://en.wikipedia.org/wiki/Truth_table).
 
