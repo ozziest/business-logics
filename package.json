@@ -1,10 +1,22 @@
 {
   "name": "business-logics",
-  "description": "This is a truth table manager to manage all of business logics without pain.",
-  "version": "1.0.0",
+  "description": "A library to query business logics via truth table.",
+  "version": "1.0.1",
   "license": "MIT",
   "author": "Özgür Adem Işıklı <i.ozguradem@gmail.com>",
-  "keywords": [],
+  "keywords": [
+    "business logic",
+    "truth table",
+    "vue"
+  ],
+  "homepage": "https://github.com/ozziest/business-logics#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ozziest/business-logics.git"
+  },
+  "bugs": {
+    "url": "https://github.com/ozziest/business-logics/issues"
+  },
   "main": "dist/index.js",
   "scripts": {
     "test": "jest",
