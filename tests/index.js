@@ -39,7 +39,7 @@ test('I should be able to send a map wihtout data section', () => {
   }).not.toThrow()
 })
 
-test('I should be able to see manipulated map in the TTable', () => {
+test('I should be able to see manipulated map in the Business Logics', () => {
   const table = new BusinessLogics({
     parameters: ['is_logged_in', 'is_admin'],
     results: {
