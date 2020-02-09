@@ -24,8 +24,8 @@ class BusinessLogics {
 
     this.map = data.map((row) => {
       const item = {}
-      this.parameters.forEach((parameter, index) => {
-        item[parameter] = row[index]
+      this.parameters.forEach((parameter, parameterIndex) => {
+        item[parameter] = row[parameterIndex]
       })
       let index = 0
       for (const key in this.results) {
@@ -55,14 +55,14 @@ class BusinessLogics {
 
     const result = this.map
       .find((item) => {
-        let result = true
+        let rowResult = true
         for (const key in params) {
           if (item[key] !== params[key]) {
-            result = false
+            rowResult = false
             break
           }
         }
-        return result
+        return rowResult
       })
 
     if (result) {
