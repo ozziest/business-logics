@@ -27,10 +27,10 @@
   },
   "devDependencies": {
     "@babel/cli": "^7.8.4",
-    "@babel/core": "^7.8.4",
-    "@babel/node": "^7.8.4",
-    "@babel/preset-env": "^7.8.4",
-    "@babel/runtime": "^7.8.4",
+    "@babel/core": "^7.8.7",
+    "@babel/node": "^7.8.7",
+    "@babel/preset-env": "^7.8.7",
+    "@babel/runtime": "^7.8.7",
     "babel-preset-minify": "^0.5.1",
     "babel-loader": "^8.0.6",
     "eslint": "^6.8.0",
@@ -41,6 +41,6 @@
     "eslint-plugin-standard": "^4.0.1",
     "jest": "^25.1.0",
     "nodemon": "^2.0.2",
-    "set-value": ">=2.0.1"
+    "set-value": ">=3.0.1"
   }
 }
