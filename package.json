@@ -1,7 +1,7 @@
 {
   "name": "business-logics",
   "description": "A library to query business logics via truth table.",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "license": "MIT",
   "author": "Özgür Adem Işıklı <i.ozguradem@gmail.com>",
   "keywords": [
